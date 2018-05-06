@@ -10,7 +10,7 @@
 //!
 //! Note the liberal use of unwrap, which leads to some hard to understand error
 //! messages.
-extern crate ozelot;
+extern crate ozelot_njaldwin as ozelot;
 extern crate getopts;
 extern crate rpassword;
 

@@ -42,8 +42,8 @@
 //! ```rust,no_run
 //! use std::thread;
 //! use std::time::Duration;
-//! use ozelot::{mojang, Client, serverbound, utils};
-//! use ozelot::clientbound::ClientboundPacket;
+//! use ozelot_njaldwin::{mojang, Client, serverbound, utils};
+//! use ozelot_njaldwin::clientbound::ClientboundPacket;
 //!
 //! let auth = mojang::Authenticate::new("my_email@example.com".to_string(),
 //!                                      "my_password".to_string())

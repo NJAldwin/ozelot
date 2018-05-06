@@ -117,7 +117,7 @@ impl Client {
     /// # Examples
     ///
     /// ```rust,no_run
-    /// use ozelot::{mojang, Client};
+    /// use ozelot_njaldwin::{mojang, Client};
     /// let auth = mojang::Authenticate::new("my_email@example.com".to_string(),
     ///                                      "my_password".to_string())
     ///     .perform().unwrap();

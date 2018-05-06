@@ -1,10 +1,10 @@
 [package]
-name = "ozelot"
-version = "0.6.0"
-authors = ["C4K3 <crates.io@c4k3.net>"]
-description = "Handles everything network related to MCMODERN."
+name = "ozelot-njaldwin"
+version = "0.7.0-alpha"
+authors = ["C4K3 <crates.io@c4k3.net>", "NJAldwin <Nick@Aldw.in>"]
+description = "Handles everything network related to MCMODERN.  [NJAldwin's fork of C4K3's ozelot]"
 documentation = "https://c4k3.net/rustdocs/ozelot/ozelot/"
-repository = "https://github.com/C4K3/ozelot/"
+repository = "https://github.com/NJAldwin/ozelot/"
 keywords = ["minecraft", "mc", "mcmodern"]
 categories = ["games"]
 license = "CC0-1.0"

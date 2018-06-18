@@ -29,7 +29,7 @@ pub struct APIStatusResponse {
 /// Represents a single username - UUID mapping.
 ///
 /// This struct is used in both PlayernamesToUUIDs and NameToUUID.
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct NameUUID {
     /// The uuid in hex without dashes
     pub id: String,
@@ -77,7 +77,7 @@ pub struct NameHistory {
 }
 
 /// Represents a response to a successful authentication
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct AuthenticationResponse {
     pub accessToken: String,
     pub clientToken: Option<String>,

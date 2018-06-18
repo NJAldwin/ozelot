@@ -104,7 +104,7 @@ extern crate error_chain;
 mod client;
 mod connection;
 #[allow(non_snake_case)]
-mod json;
+pub mod json;
 mod server;
 pub mod clientbound;
 pub mod errors;
